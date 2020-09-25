@@ -80,7 +80,7 @@ body {
 .header .menu-icon {
   cursor: pointer;
   float: right;
-  padding: 25px 20px;
+  padding: 27px 20px;
   position: relative;
   user-select: none;
 }
@@ -225,7 +225,7 @@ b {
 
 #episodios{
   border: 0;
-  margin: 10px auto 0 auto;  
+  margin: 10px 0 0 0;  
   padding: 0;       
 } 
 
@@ -237,9 +237,9 @@ b {
 }
 
 .embed-container {
-  margin: 0;
+  margin: 0 ;
   height:1203.5px;
-  width: 26.5rem;
+  width: 26.67rem;
   background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
   transform: skewY(-6deg);  
   padding: 0;
@@ -249,9 +249,9 @@ b {
 .frame-container{
   transform: skewY(6deg); 
   display: grid;
-  grid-template-columns: 16px 24.5rem 16px;
+  grid-template-columns: 1.33rem 24rem 1.33rem;
   grid-template-rows:100px 24px 225px 11px 225px 11px 225px 11px 225px;   
-  margin: 0;
+  margin: 0 ;
   padding: 0;
   border: 0;
 }
