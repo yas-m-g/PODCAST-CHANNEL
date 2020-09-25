@@ -56,7 +56,7 @@ body {
   padding: 0;
   align-self: center;
   margin-left: 16px;
-  margin-top: 15px;
+  margin-top: 12px;
   margin-bottom: 10px;
 }
   
@@ -88,10 +88,10 @@ body {
 .header .menu-icon .navicon {
   background: #333;
   display: block;
-  height: 2px;
+  height: 2.1px;
   position: relative;
   transition: background .2s ease-out;
-  width: 18px;
+  width: 1.2rem;
 } 
   
 .header .menu-icon .navicon:before,
@@ -106,11 +106,11 @@ body {
 }
   
 .header .menu-icon .navicon:before {
-  top: 5px;
+  top: 5.3px;
 }
   
 .header .menu-icon .navicon:after {
-  top: -5px;
+  top: -5.3px;
 }
   
 /* menu btn */
