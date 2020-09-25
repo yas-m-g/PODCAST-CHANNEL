@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast Channel</title>
+    <script src="https://kit.fontawesome.com/85d955a931.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="assets/logo.svg" class="logo" alt="logo">
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+          <li><a href="#episodios">EPISODIOS</a></li>
+          <li><a href="#phone">NOSOTROS</a></li>
+          <li><a href="#invitados">ENTREVISTAS</a></li>
+          <li><a href="#topicos">TÓPICOS</a></li>
+        </ul>
+    </header>
+    <section class="article">
+      <h1 class="h1">Hello <span>world</span></h1> <h1 class="h2">pale blue dot<b>.</b></h1>
+      <p>Un podcast  que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días.</p>
+      <a id="articleanchor" href="#topicos"><button id="articlebutton">CONOCÉ MÁS</button></a>
+    </section>
+    <section class="episodios" id="episodios">
+      <div class="embed-container">
+        <div class="frame-container">
+          <h2>Episodios</h2>
+          <iframe id="iframe1" src="https://open.spotify.com/embed-podcast/show/2ySVrxGkN6n6frMTo9Nsrt"  height="232"   allow="encrypted-media"></iframe>
+          <iframe id="iframe2" src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby"  height="232"   allow="encrypted-media"></iframe>
+          <iframe id="iframe3" src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv"  height="232"   allow="encrypted-media"></iframe>
+          <iframe id="iframe4" src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn"  height="232"   allow="encrypted-media"></iframe> 
+        </div>
+      </div>
+    </section>
+    <section class="phone">
+      <img id="phone" src="assets/phone.png" alt="imagentelefono">
+      <div  id="subtitulo">
+      <h3>De dónde venimos</h3>
+      <p id="epigrafe">Our posturings, our imagined  self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point of pale light. <br><br> Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to save us from ourselves.</p>
+      </div>
+    </section>
+    <section class="history" id="invitados">
+      <h4>Invitadas/os estelares</h4>
+      <img id="img1" src="assets/grace-hopper.png" alt="fotoinvitada1">
+      <img id="img2" src="assets/Katie-Bouman.png" alt="fotoinvitada2">
+      <img id="img3" src="assets/Margaret_Hamilton.png" alt="fotoinvitada3">
+      <img id="img4" src="assets/An E.R.A.Univac 1103 computer in the 1950s.png" alt="fotoinvitada4">
+      <img id="img5" src="assets/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png" alt="fotoinvitada5">
+      <img id="img6" src="assets/susan-kare.png" alt="fotoinvitada6">
+    </section>
+    <section class="temas" id="topicos">
+      <h4 id="h4">Algunos de nuestros temas</h4>
+        <img id="icon1" src="assets/icon1.svg" alt="imagentopico1">
+      <h5 id="h51">Trabajo remoto</h5>
+        <img id="icon2" src="assets/icon2.svg" alt="imagentopico2">
+      <h5 id="h52">Repensando la programación</h5>
+        <img id="icon3" src="assets/icon3.svg" alt="imagentopico3">
+      <h5 id="h53">Bases del código</h5>
+        <img id="icon4" src="assets/icon4.svg" alt="imagentopico4">
+      <h5 id="h54">Seguridad informática</h5>
+    </section>
+    <section class="trapecio">
+      <article>
+        <div class="header__bg"></div>
+      </article>
+      <div class="trapezoide">
+        <h4 id="titulonovedades">¿Querés las últimas novedades?</h4>
+        <a id="trapezoideanchor" href="#episodios"><button id="novedadesbutton">ESCUCHÁ LOS EPISODIOS</button></a>
+      </div>
+    </section>
+    <footer>
+      <h6>© 2019- Hello blue pale dot</h6>
+      <div id="fa-spotify">
+        <a href="https://www.spotify.com/ar/" target="_blank"><i class="fa fa-spotify"></i></a>  
+      </div>
+      <div id="fa-instagram">
+        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+      <div id="fa-twitter">
+        <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+    </div>
+      <div id="fa-facebook">
+        <a href="https://es-la.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a> 
+    </div>
+      <div id="fa-telegram">
+        <a href="https://www.telegram.com" target="_blank"><i class="fab fa-telegram"></i></a>
+    </div>
+    </footer>
+</body>
+</html>
